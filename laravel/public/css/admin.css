@@ -1,0 +1,56 @@
+#admin_form
+{
+    margin-top: 4%;
+    margin-bottom: 6%;
+    background: #fff;
+    box-shadow: 0 0 20px 0 #02010079, 0 5px 5px 0 #02010079;
+}
+
+#admin_form div
+{
+    text-align: left;
+}
+
+#admin_form textarea
+{
+    margin: 2%;
+    padding: 2%;
+}
+
+#admin_form .title
+{
+    width: 400px;
+    height: 12px;
+}
+
+#admin_form .description
+{
+    width: 600px;
+    height: 20px;
+}
+
+#admin_form .content
+{
+    width: 600px;
+    height: 120px;
+}
+
+#alert
+{
+    box-shadow: 0 0 10px 0 #ff3d0db4, 0 5px 5px 0 #ff3d0db4;
+}
+
+#admin_form .button
+{
+    text-align: right;
+}
+
+#admin_form .alert
+{
+    text-align: center;
+    margin: 0 auto 18px 0;
+    padding: 12px;
+    font-size: 11px;
+    background: #ff4e4ebd;
+    border-radius: 2em;
+}

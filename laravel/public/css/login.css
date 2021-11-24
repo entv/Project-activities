@@ -1,0 +1,77 @@
+.login_page
+{
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+
+.form
+{
+    position: relative;
+    z-index: 1;
+    background: #fff;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 10px 0 #ffdb2679, 0 5px 5px 0 #dfc54185;
+}
+
+.form input
+{
+    min-height: 45px;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin:  0 0 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form button
+{
+    outline: 0;
+    background: #ebce3fe0;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #2f2f2f;
+    font-size: 14px;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+.form button:hover, .form button:active, .form button:focus
+{
+    background: #fad30f;
+}
+
+.form .message
+{
+    margin: 15px 0 0;
+    color: #999;
+    font-size: 12px;
+}
+
+.form .message a
+{
+    color: #dbb700;
+    text-decoration: none;
+}
+
+.form .register_form
+{
+    display: none;
+}
+
+.alert
+{
+    margin: 0 auto 18px 0;
+    padding: 12px;
+    font-size: 11px;
+    background: #ff4e4ebd;
+    border-radius: 2em;
+}
+
+

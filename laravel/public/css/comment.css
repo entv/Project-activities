@@ -1,0 +1,38 @@
+.comment
+{
+    position: relative;
+    z-index: 1;
+    background: #fff;
+    max-width: 600px;
+    margin: 10px auto 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px 0 #dfc54180, 0 5px 5px 0 #dfc54185;
+}
+
+.comment_title
+{
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+}
+
+.comment_username
+{
+    color: #2f2f2f;
+    font-size: 14px;
+}
+
+.comment_time
+{
+    color: #999;
+    font-size: 12px;
+}
+
+.comment_content
+{
+    font-size: 12px;
+    color: #2f2f2f;
+    padding: 5%;
+    text-align: left;
+}
