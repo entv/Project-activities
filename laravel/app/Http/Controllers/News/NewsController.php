@@ -14,10 +14,10 @@ class NewsController extends Controller
 
         if($news->isEmpty())
         {
-            return redirect('/');
+            return redirect(route('home'));
         }
 
-        return view('news', ['news' => $news]);
+        return view('News.news', ['news' => $news]);
     }
 
     public function showById($id)
@@ -29,6 +29,6 @@ class NewsController extends Controller
             return abort(404);
         }
 
-        return view('post', ['post' => $post]);
+        return view('News.post', ['post' => $post]);
     }
 }

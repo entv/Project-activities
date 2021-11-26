@@ -10,6 +10,7 @@
 @endsection
 
 @section('main')
+
     <div class="main_content">
         <h1>{{$post->title}}</h1>
         <h3>{{$post->description}}</h3>
@@ -37,6 +38,7 @@
     @foreach ($post->comments as $comment)
         <div class="comment">
             <span class="comment_title">
+
                 <div class="comment_username">{{$comment->user->name}}</div>
             
                 <span class="comment_time">{{$comment->date}}</span>

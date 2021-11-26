@@ -18,7 +18,6 @@ class CommentController extends Controller
         {
             $data['post_id'] = $post->id;
             $data['user_id'] = Auth::user()->id;
-            echo 1;
             Comment::create($data);
         }
         
